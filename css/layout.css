@@ -1,0 +1,42 @@
+/* for mobile view of screen widths (480px - 767px) */
+
+@media all and (min-width: 480px) {
+
+    header{
+        text-align: center;
+        border: 0.5px solid #a7a7a7;
+        border-color: black;
+    }
+
+    aside{
+
+        text-align: center;
+        border-bottom: 0.5px solid #a7a7a7;
+        border-left: 0.5px solid #a7a7a7;
+        border-right: 0.5px solid #a7a7a7;
+        border-color: black;
+    }
+
+    footer{
+        text-align: center;
+        border-bottom: 0.5px solid #a7a7a7;
+        border-left: 0.5px solid #a7a7a7;
+        border-right: 0.5px solid #a7a7a7;
+        border-color: black;
+    }
+}
+
+
+
+
+
+
+/* for Desktop view of screen widths of 768px and more */
+
+@media all and (min-width: 768px) {
+
+    footer{
+        border-left: 0;
+    }
+
+}
